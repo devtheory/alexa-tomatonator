@@ -296,11 +296,11 @@ function onSessionEnded(sessionEndedRequest, session) {
 
 var ANSWER_COUNT = 4;
 var GAME_LENGTH = 5;
-var CARD_TITLE = "Tomatonator"; 
+var CARD_TITLE = "Tomatonator Trivia";
 
 function getWelcomeResponse(callback) {
     var sessionAttributes = {},
-        speechOutput = "Tomatonator. I will ask you " + GAME_LENGTH.toString()
+        speechOutput = "Tomatonator Trivia. I will ask you " + GAME_LENGTH.toString()
             + " questions, try to get as many right as you can. Just say the number of the answer. Let's begin. ",
         shouldEndSession = false,
 
